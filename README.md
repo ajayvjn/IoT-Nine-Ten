@@ -7,22 +7,19 @@
 
 
 * __Inspiration__  
-> Our inspiration is the deadliest dieseases of this century. Diabetes and Cardiac heart arrests. We believe with proper medical assistance, the death rate could be drastically reduced and this is possible by existing technoilogies.
+> Our inspiration is the deadliest dieseases of this century. Diabetes and Cardiac heart arrests. We believe with proper medical assistance, the death rate could be drastically reduced and this is possible by existing technologies.
 
 * __What it does__  
-> It provides the immidiate medical assistance first hand, determining the heart rate , gesttures and other features.   
-
-* __How we built it__  
-> We used Amazon Web services, Pebble 2 for sensors and Intel Edison for device.
+> It provides the immidiate medical assistance first hand, determining the heart rate , gestures and other features.   
   
 * __Accomplishments that we're proud of__
-> We definately help elders alone in home and we are much faster than 9-1-1. 
+> This product would definitely help the elders alone at home as we are a step before 911. 
 
 * __What's next for Nine_Ten__  
-> Solving more problems of the world.
+> Solving more problems of the world. Would possibly tackle more deseases in future with the use of other sensors.
 
 * __Built With__
-  1. Intel-edison
-  2. Amazon-web-services
-  3. Amazon SQS
-  4. Javascript
+  1. Intel Edison
+  2. Amazon Web Services - Amazon SQS
+  3. NodeJS
+  4. Javascript / C for Pebble
