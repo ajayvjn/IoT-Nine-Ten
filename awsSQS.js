@@ -24,22 +24,24 @@ var AWS = {
       if (err) {
         console.log("Receive Error", err);
       } else {
-        console.log(data);
-        console.log("111");
-        if(data.Messages != 'undefined' && data.Messages != ""){
-          console.log("222");
-          Display.display(data.Messages[0].Body);
-          var deleteParams = {
-            QueueUrl: queueURL,
-            ReceiptHandle: data.Messages[0].ReceiptHandle
-          };
-          sqs.deleteMessage(deleteParams, function(err, data) {
-            if (err) {
-              console.log("Delete Error", err);
-            } else {
-              console.log("Message Deleted", data);
-            }
-          });
+        console.log(JSON.stringify(data));
+        try{
+          if(data !== 'undefined' && data != ""){
+            Display.display(data.Messages[0].Body);
+            var deleteParams = {
+              QueueUrl: queueURL,
+              ReceiptHandle: data.Messages[0].ReceiptHandle
+            };
+            sqs.deleteMessage(deleteParams, function(err, data) {
+              if (err) {
+                console.log("Delete Error", err);
+              } else {
+                console.log("Message Deleted", data);
+              }
+            });
+          }
+        }catch(e){
+
         }
       }
     });
