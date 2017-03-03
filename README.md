@@ -1,6 +1,10 @@
 # IoT-Nine-Ten
 ###Before you call 9.1.1 
 
+[Nine-Ten Youtube] (https://youtu.be/LROIG3YoOQg)  
+
+
+
 * __Inspiration__  
 > Our inspiration is the deadliest dieseases of this century. Diabetes and Cardiac heart arrests. We believe with proper medical assistance, the death rate could be drastically reduced and this is possible by existing technoilogies.
 
